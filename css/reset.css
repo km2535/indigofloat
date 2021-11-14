@@ -1,0 +1,146 @@
+/* 브라우저마다 설정되어 있는 CSS 속성 값들을 초기화하여 우리가 설정한 스타일이 정상적으로 적용되도록 한다. */
+@charset "utf-8";
+
+/* 웹 폰트 */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap"); /* css초기화 */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+small,
+samp,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul,
+li {
+  list-style: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+
+img {
+  /* img태그의 간격을 없애기 위해 vertical-align 속성값을 top으로 설정 */
+  vertical-align: top;
+}
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid #757575;
+  color: #3f51b5;
+  font-family: "Montserrat";
+  font-size: 12px;
+  vertical-align: top;
+  border-radius: 0;
+  box-sizing: content-box;
+  appearance: none;
+}
+
+::-webkit-input-placeholder {
+  color: #3f51b5;
+}
